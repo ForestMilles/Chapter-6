@@ -5,7 +5,7 @@ point in the clockwise direction. Here are some tests that should pass:
 test(turn_clockwise("N") == "E")
 test(turn_clockwise("W") == "N")"""
 
-def turn_clockwise(D):
+def turn_clockwise(d):
     if d == "N":
         return "E"
     elif d == "E":
